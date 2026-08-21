@@ -1,7 +1,7 @@
 {
   "name": "Official ETMR Store",
   "version": 2,
-  "updated": "2026-08-21T19:28:26.063423Z",
+  "updated": "2026-08-21T19:52:12.533024Z",
   "apps": [
     {
       "id": "com.zhes.counter",
@@ -269,6 +269,32 @@
       },
       "createdAt": "2026-08-12T10:16:40+00:00",
       "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "com.velzevyl.gorillamr",
+      "name": "Gorilla MR",
+      "version": "1.0.0",
+      "author": "Вельзевул",
+      "description": "Верни свои дикие корни! Стань обезьяной (хоть и с инвалидностью...), карабкайся по стенам, лазай по пещерам и многое другое!",
+      "display": "scene",
+      "type": "bundle",
+      "minApiVersion": 2,
+      "icon": "apps/com.velzevyl.gorillamr/icon.png",
+      "preview": "apps/com.velzevyl.gorillamr/preview.png",
+      "platforms": {
+        "iOS": {
+          "url": "apps/com.velzevyl.gorillamr/app_ios.emr",
+          "size": 29890882,
+          "sha256": "19d50015d5e5c4dbb5fdf31da462619ac8c08030b4c5359209b7ff29a8ac2f20"
+        },
+        "Android": {
+          "url": "apps/com.velzevyl.gorillamr/app_android.emr",
+          "size": 28929754,
+          "sha256": "1b0c050fd14aeab87fb490c2a09c0b8ef2dc6e8bae357bfdfb10eb26c786bb81"
+        }
+      },
+      "createdAt": "2026-08-06T13:08:06+00:00",
+      "updatedAt": "2026-08-21"
     }
   ]
 }
