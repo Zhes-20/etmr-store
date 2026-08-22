@@ -1,7 +1,7 @@
 {
   "name": "Official ETMR Store",
   "version": 2,
-  "updated": "2026-08-21T19:52:12.533024Z",
+  "updated": "2026-08-22T11:44:59.268941Z",
   "apps": [
     {
       "id": "com.zhes.counter",
@@ -295,6 +295,27 @@
       },
       "createdAt": "2026-08-06T13:08:06+00:00",
       "updatedAt": "2026-08-21"
+    },
+    {
+      "id": "com.wohdy21.apklauncher",
+      "name": "APK Лаунчер",
+      "version": "1.1.0",
+      "author": "wohdy21/Гарим",
+      "description": "Запуск любого андройд приложения прямо в етмр\n\n⚠️ДЛЯ РАБОТЫ ТРЕБУЕТСЯ ROOT И unsafe_execution⚠️",
+      "display": "scene",
+      "type": "universal",
+      "minApiVersion": 2,
+      "icon": "apps/com.wohdy21.apklauncher/icon.png",
+      "preview": "apps/com.wohdy21.apklauncher/preview.png",
+      "platforms": {
+        "Universal": {
+          "url": "apps/com.wohdy21.apklauncher/app_universal.emr",
+          "size": 44449,
+          "sha256": "bceddf23880b4e9f6116a25b7378c4e05c86ba44f7e0624de14ff0e12e0cd13c"
+        }
+      },
+      "createdAt": "2026-08-21T22:15:33+00:00",
+      "updatedAt": "2026-08-22"
     }
   ]
 }
