@@ -1,7 +1,7 @@
 {
   "name": "Official ETMR Store",
   "version": 2,
-  "updated": "2026-08-23T16:50:45.184446Z",
+  "updated": "2026-08-24T11:54:32.856631Z",
   "apps": [
     {
       "id": "com.zhes.counter",
@@ -316,6 +316,32 @@
       },
       "createdAt": "2026-08-21T22:15:33+00:00",
       "updatedAt": "2026-08-23"
+    },
+    {
+      "id": "com.vana.app",
+      "name": "Крестики-Нолики",
+      "version": "1.4",
+      "author": "Vana",
+      "description": "Крестики-Нолики классическая игра для одного игрока  играй с ИИ выбирай сложности игры легко, Средне, Тяжело выбирай формат 3х3 или 9х9 выбирай цвет заднего фона и начинай игру!",
+      "display": "window",
+      "type": "bundle",
+      "minApiVersion": 2,
+      "icon": "apps/com.vana.app/icon.png",
+      "preview": null,
+      "platforms": {
+        "iOS": {
+          "url": "apps/com.vana.app/app_ios.emr",
+          "size": 129379,
+          "sha256": "c708602ecdf6ab0efcf1b5500a6f5ebf4c4e8effd3bf2b96ec0a351dd60bc18c"
+        },
+        "Android": {
+          "url": "apps/com.vana.app/app_android.emr",
+          "size": 129379,
+          "sha256": "98dfcdaa1e8fdc339a9b80330e8d70be596060b85d483ffa7fceabfb6e1a1428"
+        }
+      },
+      "createdAt": "2026-08-24T10:04:22+00:00",
+      "updatedAt": "2026-08-24"
     }
   ]
 }
